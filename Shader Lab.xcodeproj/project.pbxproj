@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		007994018272296BC688CFB4 /* Shader Lab Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 196F94691CFFD4256A74E64D /* Shader Lab Watch App.app */; platformFilters = (ios, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A955C5CB5369F24FCB39FA64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77F2AE8BA7AE34F5718A4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B2471DDB36317E2EC679CA;
+			remoteInfo = "Shader Lab Watch App";
+		};
+		AAF9779FE25A22E494C686BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77F2AE8BA7AE34F5718A4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F1CCD8B576C49A6FF5A0A4;
+			remoteInfo = "Shader Lab";
+		};
+		5A618F5CB87B9A5F7DEB14FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A77F2AE8BA7AE34F5718A4AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F1CCD8B576C49A6FF5A0A4;
+			remoteInfo = "Shader Lab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB20E4496AFCB362655C8BD6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				007994018272296BC688CFB4 /* Shader Lab Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		179922CB1CEBEF3E053F0B53 /* Shader Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shader Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		196F94691CFFD4256A74E64D /* Shader Lab Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shader Lab Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98EFCB63CA5F667E62BFE11 /* Shader Lab Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shader Lab Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FE7BCF014DA03A004C5B039 /* Shader Lab UI Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shader Lab UI Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DDD44A35D73DA80CB02CD784 /* Exceptions for "App" folder in "Shader Lab" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 07F1CCD8B576C49A6FF5A0A4 /* Shader Lab */;
+		};
+		258F41C3E7C812075B7744DD /* Exceptions for "Watch App" folder in "Shader Lab Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 94B2471DDB36317E2EC679CA /* Shader Lab Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A2F73CD30D0AC0D3A07F97AB /* App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DDD44A35D73DA80CB02CD784 /* Exceptions for "App" folder in "Shader Lab" target */,
+			);
+			path = "App";
+			sourceTree = "<group>";
+		};
+		91A1C58F2A48D35B38E841DD /* Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				258F41C3E7C812075B7744DD /* Exceptions for "Watch App" folder in "Shader Lab Watch App" target */,
+			);
+			path = "Watch App";
+			sourceTree = "<group>";
+		};
+		3A21E9A736ADE449F0CE653F /* Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tests";
+			sourceTree = "<group>";
+		};
+		0B45C50713DA9F0902FCEBFD /* UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26A4EB2C129DF87B503C8A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94D080951C522C43BD70619F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		748465BA5A8369BDBDBE9B2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E46D9BEEE77A4B10C2EAC4D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12E007F004CD1962A7645EE = {
+			isa = PBXGroup;
+			children = (
+				A2F73CD30D0AC0D3A07F97AB /* App */,
+				91A1C58F2A48D35B38E841DD /* Watch App */,
+				3A21E9A736ADE449F0CE653F /* Tests */,
+				0B45C50713DA9F0902FCEBFD /* UITests */,
+				8B6229A5B49C76620585E950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B6229A5B49C76620585E950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179922CB1CEBEF3E053F0B53 /* Shader Lab.app */,
+				196F94691CFFD4256A74E64D /* Shader Lab Watch App.app */,
+				D98EFCB63CA5F667E62BFE11 /* Shader Lab Tests.xctest */,
+				9FE7BCF014DA03A004C5B039 /* Shader Lab UI Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F1CCD8B576C49A6FF5A0A4 /* Shader Lab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E10CCAC84BC5F0114F453112 /* Build configuration list for PBXNativeTarget "Shader Lab" */;
+			buildPhases = (
+				48DDA87DE848854114F771AB /* Sources */,
+				F26A4EB2C129DF87B503C8A9 /* Frameworks */,
+				3140D54A3B369608FC280027 /* Resources */,
+				BB20E4496AFCB362655C8BD6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7DE6135DD1EF37A3CFD7249 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A2F73CD30D0AC0D3A07F97AB /* App */,
+			);
+			name = "Shader Lab";
+			packageProductDependencies = (
+			);
+			productName = "Shader Lab";
+			productReference = 179922CB1CEBEF3E053F0B53 /* Shader Lab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B2471DDB36317E2EC679CA /* Shader Lab Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BA9AEAAD0ACF4DD4DB13B6 /* Build configuration list for PBXNativeTarget "Shader Lab Watch App" */;
+			buildPhases = (
+				A4A7875C304C29A339F1D6F6 /* Sources */,
+				94D080951C522C43BD70619F /* Frameworks */,
+				8A3C71775FA1DA4F9FCC1C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				91A1C58F2A48D35B38E841DD /* Watch App */,
+			);
+			name = "Shader Lab Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Shader Lab Watch App";
+			productReference = 196F94691CFFD4256A74E64D /* Shader Lab Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB71B237A0258619B0C886C2 /* Shader Lab Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66E95A66CA4DCE07A4391F30 /* Build configuration list for PBXNativeTarget "Shader Lab Tests" */;
+			buildPhases = (
+				08A6444FECD96DC5A08EAC15 /* Sources */,
+				748465BA5A8369BDBDBE9B2D /* Frameworks */,
+				A9F241E4DCEDF6A2E9F263B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9245B5F4D4ED89E5BAC71D1B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				3A21E9A736ADE449F0CE653F /* Tests */,
+			);
+			name = "Shader Lab Tests";
+			packageProductDependencies = (
+			);
+			productName = "Shader Lab Tests";
+			productReference = D98EFCB63CA5F667E62BFE11 /* Shader Lab Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B5E668B50123A9B6F9871250 /* Shader Lab UI Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1A00926EB1403D45A0EA1D4 /* Build configuration list for PBXNativeTarget "Shader Lab UI Tests" */;
+			buildPhases = (
+				0A9EB0AB33F5ED4CF5051E3C /* Sources */,
+				E46D9BEEE77A4B10C2EAC4D6 /* Frameworks */,
+				21F58824C1B71F1434B647BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BB76F0A1E1401A7AF5AB932 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0B45C50713DA9F0902FCEBFD /* UITests */,
+			);
+			name = "Shader Lab UI Tests";
+			packageProductDependencies = (
+			);
+			productName = "Shader Lab UI Tests";
+			productReference = 9FE7BCF014DA03A004C5B039 /* Shader Lab UI Tests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A77F2AE8BA7AE34F5718A4AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					07F1CCD8B576C49A6FF5A0A4 = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					94B2471DDB36317E2EC679CA = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					DB71B237A0258619B0C886C2 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 07F1CCD8B576C49A6FF5A0A4;
+					};
+					B5E668B50123A9B6F9871250 = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 07F1CCD8B576C49A6FF5A0A4;
+					};
+				};
+			};
+			buildConfigurationList = A459AC7548181166DD7B40D1 /* Build configuration list for PBXProject "Shader Lab" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F12E007F004CD1962A7645EE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8B6229A5B49C76620585E950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F1CCD8B576C49A6FF5A0A4 /* Shader Lab */,
+				94B2471DDB36317E2EC679CA /* Shader Lab Watch App */,
+				DB71B237A0258619B0C886C2 /* Shader Lab Tests */,
+				B5E668B50123A9B6F9871250 /* Shader Lab UI Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3140D54A3B369608FC280027 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3C71775FA1DA4F9FCC1C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F241E4DCEDF6A2E9F263B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21F58824C1B71F1434B647BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48DDA87DE848854114F771AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4A7875C304C29A339F1D6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08A6444FECD96DC5A08EAC15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A9EB0AB33F5ED4CF5051E3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7DE6135DD1EF37A3CFD7249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				ios,
+			);
+			target = 94B2471DDB36317E2EC679CA /* Shader Lab Watch App */;
+			targetProxy = A955C5CB5369F24FCB39FA64 /* PBXContainerItemProxy */;
+		};
+		9245B5F4D4ED89E5BAC71D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F1CCD8B576C49A6FF5A0A4 /* Shader Lab */;
+			targetProxy = AAF9779FE25A22E494C686BD /* PBXContainerItemProxy */;
+		};
+		9BB76F0A1E1401A7AF5AB932 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F1CCD8B576C49A6FF5A0A4 /* Shader Lab */;
+			targetProxy = 5A618F5CB87B9A5F7DEB14FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6CED658CB80BCBB43C746A49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Debug;
+		};
+		41578A4789F098D1AC50D132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 26.0;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+				XROS_DEPLOYMENT_TARGET = 26.0;
+			};
+			name = Release;
+		};
+		49EFFA8688349199F704EC2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Debug;
+		};
+		273E58A7CC7C45D3B344F15B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = "1,2,3,7";
+			};
+			name = Release;
+		};
+		7AD4422E757C3C67D2005015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		4E990675C022C8D56CD9BC74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = "Watch App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		AB450E0B29903DA052D74E32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shader Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shader Lab";
+			};
+			name = Debug;
+		};
+		947A5EB08332EDE7A492E604 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shader Lab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shader Lab";
+			};
+			name = Release;
+		};
+		39562973998904587B31CCA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shader Lab";
+			};
+			name = Debug;
+		};
+		8035DD2B6490632396772A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.9986af00-3e9d-44a6-943a-334c43dbfc63.uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shader Lab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A459AC7548181166DD7B40D1 /* Build configuration list for PBXProject "Shader Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CED658CB80BCBB43C746A49 /* Debug */,
+				41578A4789F098D1AC50D132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10CCAC84BC5F0114F453112 /* Build configuration list for PBXNativeTarget "Shader Lab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49EFFA8688349199F704EC2D /* Debug */,
+				273E58A7CC7C45D3B344F15B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BA9AEAAD0ACF4DD4DB13B6 /* Build configuration list for PBXNativeTarget "Shader Lab Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AD4422E757C3C67D2005015 /* Debug */,
+				4E990675C022C8D56CD9BC74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66E95A66CA4DCE07A4391F30 /* Build configuration list for PBXNativeTarget "Shader Lab Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB450E0B29903DA052D74E32 /* Debug */,
+				947A5EB08332EDE7A492E604 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1A00926EB1403D45A0EA1D4 /* Build configuration list for PBXNativeTarget "Shader Lab UI Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39562973998904587B31CCA7 /* Debug */,
+				8035DD2B6490632396772A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A77F2AE8BA7AE34F5718A4AB /* Project object */;
+}
